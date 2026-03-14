@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Hafizul Islam | Senior Full Stack Software Engineer</title>
+    <meta name="description" content="Portfolio of Md Hafizul Islam, a Senior Full Stack Software Engineer with 6 years of experience building scalable web applications and distributed systems.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Decorators -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container container">
+            <a href="#" class="nav-logo">Hafizul<span>.</span></a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline nav-btn">Let's Talk</a>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content reveal">
+                    <span class="home-subtitle">Hi, I am</span>
+                    <h1 class="home-title">Md Hafizul Islam</h1>
+                    <h3 class="home-typing">I build <span class="typing-text"></span><span class="cursor">|</span></h3>
+                    <p class="home-description">
+                        A Senior Full Stack Software Engineer bridging the gap between scalable backends and intuitive frontend experiences.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore Work <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="home-socials">
+                            <a href="https://github.com/hafizul16103123" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/md-hafizul-islam-44aa90153" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://leetcode.com/islamhafizul158" target="_blank" class="social-link" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-visual reveal-right">
+                    <div class="visual-blob">
+                        <div class="glass-badge badge-1 float-anim">
+                            <i class="fas fa-server"></i>
+                            <span>Node.js / Golang</span>
+                        </div>
+                        <div class="glass-badge badge-2 float-anim-alt">
+                            <i class="fab fa-react"></i>
+                            <span>React / Next.js</span>
+                        </div>
+                        <div class="central-orb"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">About Me</h2>
+                    <span class="section-subtitle">My Journey</span>
+                </div>
+                
+                <div class="about-container grid">
+                    <div class="about-data glass-panel">
+                        <p class="about-description">
+                            I am an experienced <strong>Full Stack Software Engineer</strong> with 6 years of expertise building scalable web applications and distributed systems. My focus lies in creating robust backend architectures and matching them with dynamic, user-centric frontends.
+                        </p>
+                        <p class="about-description">
+                            I thrive on solving complex technical challenges, whether it's designing microservices, optimizing databases, or orchestrating deployments with Kubernetes and Docker.
+                        </p>
+                        
+                        <div class="about-info grid">
+                            <div class="info-box">
+                                <h3 class="info-title">06+</h3>
+                                <span class="info-name">Years<br>Experience</span>
+                            </div>
+                            <div class="info-box">
+                                <h3 class="info-title">10+</h3>
+                                <span class="info-name">Completed<br>Projects</span>
+                            </div>
+                            <div class="info-box">
+                                <h3 class="info-title">3</h3>
+                                <span class="info-name">MongoDB<br>Certificates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Skills & Tech Stack</h2>
+                    <span class="section-subtitle">What I bring to the table</span>
+                </div>
+
+                <div class="skills-container grid">
+                    <!-- Backend -->
+                    <div class="skills-category glass-panel hover-lift">
+                        <h3 class="skills-title"><i class="fas fa-server"></i> Backend Engineering</h3>
+                        <div class="skills-group">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Golang</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">NestJS</span>
+                            <span class="skill-tag">PHP / Laravel</span>
+                            <span class="skill-tag">Microservices</span>
+                            <span class="skill-tag">REST & GraphQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skills-category glass-panel hover-lift">
+                        <h3 class="skills-title"><i class="fas fa-laptop-code"></i> Frontend Engineering</h3>
+                        <div class="skills-group">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">Redux Toolkit</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">JavaScript / ES6+</span>
+                        </div>
+                    </div>
+
+                    <!-- Database & Cache -->
+                    <div class="skills-category glass-panel hover-lift">
+                        <h3 class="skills-title"><i class="fas fa-database"></i> Database & Message Broker</h3>
+                        <div class="skills-group">
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Amazon DynamoDB</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">RabbitMQ</span>
+                            <span class="skill-tag">Apache Kafka</span>
+                            <span class="skill-tag">Elastic Search</span>
+                        </div>
+                    </div>
+
+                    <!-- DevOps -->
+                    <div class="skills-category glass-panel hover-lift">
+                        <h3 class="skills-title"><i class="fas fa-cloud"></i> DevOps & Infrastructure</h3>
+                        <div class="skills-group">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">AWS (EC2, S3)</span>
+                            <span class="skill-tag">Nginx</span>
+                            <span class="skill-tag">ELK Stack</span>
+                            <span class="skill-tag">Open Telemetry</span>
+                            <span class="skill-tag">CI/CD Pipeline</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Experience</h2>
+                    <span class="section-subtitle">My professional timeline</span>
+                </div>
+
+                <div class="timeline">
+                    <!-- Zaynax Limited -->
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2024 - Present</div>
+                        <h3 class="timeline-title">Team Lead Software</h3>
+                        <span class="timeline-company">Zaynax Limited</span>
+                        <ul class="timeline-details">
+                            <li>Lead and manage a team to achieve project goals, delegating tasks and ensuring resource allocation.</li>
+                            <li>Built a full-featured HRM Software tailored for corporate clients.</li>
+                            <li>Maintain and enhance the Zaynax Health and zDrop systems based on evolving client requirements.</li>
+                            <li><strong>Tech:</strong> Node.js (NestJS), Reactjs, Redux, TypeScript, MongoDB, Docker</li>
+                        </ul>
+                    </div>
+
+                    <!-- 6sense Technologies -->
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2023 – May 2024</div>
+                        <h3 class="timeline-title">Software Engineer II (Full Stack)</h3>
+                        <span class="timeline-company">6sense Technologies</span>
+                        <ul class="timeline-details">
+                            <li>Developed a scalable, customized EV Charging Management Software solution (6senseEV).</li>
+                            <li>Engineered Pattern50, a project management software for startups using microservices.</li>
+                            <li>Created secure RESTful APIs and real-time socket communications, integrated with AWS and DynamoDB.</li>
+                            <li><strong>Tech:</strong> Microservices, Python, TypeScript, NestJS, React, MySQL, RabbitMQ, DynamoDB, AWS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Walton Group -->
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Oct 2022 – Aug 2023</div>
+                        <h3 class="timeline-title">Full Stack Software Engineer</h3>
+                        <span class="timeline-company">Walton Group</span>
+                        <ul class="timeline-details">
+                            <li>Developed APIs using GraphQL and Apollo Federation for the Walton E-Commerce Marketplace.</li>
+                            <li>Integrated Elastic Search for enhanced product search capabilities.</li>
+                            <li>Implemented CI/CD workflows and Dockerized applications for faster deployment.</li>
+                            <li><strong>Tech:</strong> HapiJS, React, GraphQL, Apache Kafka, Elastic Search, MySQL, Redis, Nginx</li>
+                        </ul>
+                    </div>
+
+                    <!-- Zaynax Group -->
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Apr 2020 - Oct 2022</div>
+                        <h3 class="timeline-title">Full Stack Software Engineer</h3>
+                        <span class="timeline-company">Zaynax Group</span>
+                        <ul class="timeline-details">
+                            <li>Built zDrop E-Commerce multi-vendor platform utilizing a microservice architecture and the MERN stack.</li>
+                            <li>Developed Zaynax Health platform, featuring real-time audio/video calls (Jitsi Meet), digital prescriptions, and medicine orders.</li>
+                            <li>Managed server deployments using Nginx reverse proxy and Docker containers.</li>
+                            <li><strong>Tech:</strong> NestJS, Next.js, Role-Based Access, WebRTC, Socket.io, MongoDB, Redis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Selected Projects</h2>
+                    <span class="section-subtitle">A showcase of systems I've built</span>
+                </div>
+
+                <div class="projects-container grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-panel hover-lift">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-icon"><i class="fas fa-charging-station"></i></div>
+                                <div class="project-links">
+                                    <a href="https://6senseev.com" target="_blank" class="project-link" aria-label="Visit"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">6senseEV</h3>
+                            <p class="project-description">
+                                A customized EV (Electric Vehicle) charging management software solution for manufacturing, turnkey businesses, and enterprises. Focuses on real-time hardware telemetry and user billing.
+                            </p>
+                            <div class="project-tech">
+                                <span>NestJS</span>
+                                <span>React</span>
+                                <span>DynamoDB</span>
+                                <span>RabbitMQ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-panel hover-lift">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-icon"><i class="fas fa-project-diagram"></i></div>
+                                <div class="project-links">
+                                    <a href="https://www.pattern50.com/" target="_blank" class="project-link" aria-label="Visit"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Pattern50</h3>
+                            <p class="project-description">
+                                A comprehensive project management software solution designed for startups to build their software assets efficiently utilizing proven patterns.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>TypeScript</span>
+                                <span>Microservices</span>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-panel hover-lift">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                                <div class="project-links">
+                                    <a href="https://waltonplaza.com.bd" target="_blank" class="project-link" aria-label="Visit"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Walton E-commerce</h3>
+                            <p class="project-description">
+                                A large-scale multi-vendor e-commerce marketplace for Walton Group, facilitating seamless B2C transactions with high-throughput microservices.
+                            </p>
+                            <div class="project-tech">
+                                <span>HapiJS</span>
+                                <span>GraphQL</span>
+                                <span>Kafka</span>
+                                <span>Elastic Search</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-panel hover-lift">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+                                <div class="project-links">
+                                    <a href="https://zaynaxhealth.com" target="_blank" class="project-link" aria-label="Visit"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <h3 class="project-title">Zaynax Health</h3>
+                            <p class="project-description">
+                                Advanced healthcare platform integrating real-time audio/video consultations, digital prescriptions, and e-commerce for medicine ordering.
+                            </p>
+                            <div class="project-tech">
+                                <span>Next.js</span>
+                                <span>NestJS</span>
+                                <span>WebRTC</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section class="education section" id="education">
+            <div class="container reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Education & Certifications</h2>
+                    <span class="section-subtitle">My academic and technical achievements</span>
+                </div>
+
+                <div class="education-grid grid">
+                    <div class="edu-column">
+                        <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline mini-timeline">
+                            <div class="timeline-item glass-panel">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Graduated: 2020</div>
+                                <h4 class="timeline-title">B.Sc in Computer Science & Engineering</h4>
+                                <span class="timeline-company">International University of Business, Agriculture & Technology (IUBAT)</span>
+                                <p class="timeline-grade">CGPA: 3.65</p>
+                            </div>
+                            <div class="timeline-item glass-panel">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2015</div>
+                                <h4 class="timeline-title">Higher Secondary School Certificate</h4>
+                                <span class="timeline-company">Govt. Azizul Haque College, Bogura</span>
+                                <p class="timeline-grade">GPA: 5.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="edu-column">
+                        <h3 class="column-title"><i class="fas fa-certificate"></i> Certifications</h3>
+                        <div class="cert-list">
+                            <div class="cert-card glass-panel hover-lift">
+                                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                                <div class="cert-info">
+                                    <h4>MongoDB Indexes</h4>
+                                    <span>MongoDB University | Credential: MDB6wld6culba</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel hover-lift">
+                                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                                <div class="cert-info">
+                                    <h4>M320: MongoDB Data Modeling</h4>
+                                    <span>MongoDB University | Credential: MDBq72guigcly</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel hover-lift">
+                                <div class="cert-icon"><i class="fas fa-award"></i></div>
+                                <div class="cert-info">
+                                    <h4>Docker for the Absolute Beginner</h4>
+                                    <span>Kode Cloud</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel hover-lift">
+                                <div class="cert-icon"><i class="fas fa-star"></i></div>
+                                <div class="cert-info">
+                                    <h4>Employee of The Month</h4>
+                                    <span>Zaynax Group</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container reveal">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <span class="section-subtitle">Let's build something amazing together</span>
+                </div>
+
+                <div class="contact-container grid">
+                    <div class="contact-info glass-panel">
+                        <h3 class="contact-title">Contact Information</h3>
+                        <p class="contact-text">Feel free to reach out to me for any inquiries, collaborations, or just to say hi!</p>
+                        
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>Uttar Badda, Dhaka-1212, Bangladesh</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:islamhafizul158@gmail.com">islamhafizul158@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <span>+8801744829193, +8801521405692</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <a href="https://github.com/hafizul16103123" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/md-hafizul-islam-44aa90153" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://leetcode.com/islamhafizul158" target="_blank" class="social-icon"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+
+                    <form action="#" class="contact-form glass-panel">
+                        <div class="form-group grid">
+                            <div class="form-input-container">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-input-container">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-input-container">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" placeholder="Subject" required>
+                        </div>
+                        <div class="form-input-container">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" cols="30" rows="6" class="form-input" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="event.preventDefault(); alert('In a real app, this would send an email. For this static site, thank you for reaching out!');">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer glass-panel">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Hafizul<span>.</span></a>
+                <p class="footer-desc">Building scalable applications with modern technologies.</p>
+            </div>
+            <p class="footer-copy">&#169; 2026 Md Hafizul Islam. All rights reserved.</p>
+        </div>
+        
+        <!-- Scroll Up -->
+        <a href="#home" class="scroll-up" id="scroll-up">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
