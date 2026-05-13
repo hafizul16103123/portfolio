@@ -554,7 +554,7 @@ button, input, textarea {
    SKILLS SECTION
 ============================================= */
 .skills-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 2rem;
 }
 
@@ -1054,11 +1054,14 @@ textarea.form-input {
     }
 
     .home-container,
-    .skills-container,
     .projects-container,
     .education-grid,
     .contact-container {
         grid-template-columns: 1fr;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .home-container {

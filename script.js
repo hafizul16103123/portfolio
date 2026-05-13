@@ -46,7 +46,7 @@ window.addEventListener('scroll', scrollHeader);
    TYPEWRITER EFFECT 
 ============================================= */
 const typingText = document.querySelector('.typing-text');
-const words = ["Node.js backends", "React frontends", "scalable systems", "microservices"];
+const words = ["Node.js backends", "React frontends", "scalable systems", "microservices", "AI-powered apps"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
